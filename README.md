@@ -29,5 +29,50 @@ The **Social Media API Client** is a React-based front-end application that allo
 - Node.js (v18+ recommended)
 - npm or yarn
 
-
+### Installation
+1. Clone the repository:
+   ```bash
    git clone https://github.com/JPretz/sweng861-2025-FALL-SocialMedialAPI_client_Frontend.git
+
+Navigate to the project folder:
+
+cd social-media-client
+
+
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
+npm start
+
+
+Open your browser at http://localhost:3000
+
+Screenshots
+
+Place screenshots of the Login page, Dashboard, and CRUD operations here.
+
+Project Structure
+social-media-client/
+│
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Login.js
+│   │   ├── Dashboard.js
+│   │   └── ApiCrud.js
+│   ├── services/
+│   │   └── api.js
+│   ├── App.js
+│   └── index.js
+├── package.json
+└── README.md
+
+Notes
+
+Tokens are stored in localStorage for demonstration purposes.
+
+For production, ensure HTTPS and proper backend token validation.
